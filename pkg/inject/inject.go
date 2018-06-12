@@ -4,7 +4,7 @@ import (
 	injectargs "github.com/kubernetes-sigs/kubebuilder/pkg/inject/args"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/run"
 
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject/args"
+	"github.com/sdminonne/crd-webhook/pkg/inject/args"
 )
 
 var (

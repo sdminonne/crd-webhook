@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	mygroupv1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
-	fakemygroupv1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/typed/mygroup/v1alpha1/fake"
+	clientset "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	mygroupv1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
+	fakemygroupv1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/typed/mygroup/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

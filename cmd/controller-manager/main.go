@@ -13,8 +13,8 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/signals"
 	extensionsv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject/args"
+	"github.com/sdminonne/crd-webhook/pkg/inject"
+	"github.com/sdminonne/crd-webhook/pkg/inject/args"
 )
 
 var installCRDs = flag.Bool("install-crds", true, "install the CRDs used by the controller as part of startup")

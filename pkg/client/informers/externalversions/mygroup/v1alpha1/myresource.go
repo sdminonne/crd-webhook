@@ -5,10 +5,10 @@ package v1alpha1
 import (
 	time "time"
 
-	mygroup_v1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
-	versioned "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/listers/mygroup/v1alpha1"
+	mygroup_v1alpha1 "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"
+	versioned "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/listers/mygroup/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

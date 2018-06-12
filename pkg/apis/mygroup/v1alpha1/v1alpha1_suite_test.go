@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/client-go/rest"
 
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject"
+	"github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	"github.com/sdminonne/crd-webhook/pkg/inject"
 )
 
 var testenv *test.TestEnvironment

@@ -4,7 +4,7 @@
 
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup
+// +k8s:conversion-gen=github.com/sdminonne/crd-webhook/pkg/apis/mygroup
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=mygroup.amadeus.io
-package v1alpha1 // import "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
+package v1alpha1 // import "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"

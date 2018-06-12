@@ -3,8 +3,8 @@
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"
+	"github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

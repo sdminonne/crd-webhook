@@ -7,12 +7,12 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/controller/types"
 	"k8s.io/client-go/tools/record"
 
-	mygroupv1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
-	mygroupv1alpha1client "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
-	mygroupv1alpha1informer "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/mygroup/v1alpha1"
-	mygroupv1alpha1lister "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/listers/mygroup/v1alpha1"
+	mygroupv1alpha1 "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"
+	mygroupv1alpha1client "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
+	mygroupv1alpha1informer "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/mygroup/v1alpha1"
+	mygroupv1alpha1lister "github.com/sdminonne/crd-webhook/pkg/client/listers/mygroup/v1alpha1"
 
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject/args"
+	"github.com/sdminonne/crd-webhook/pkg/inject/args"
 )
 
 // EDIT THIS FILE

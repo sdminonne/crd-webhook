@@ -3,8 +3,8 @@
 package mygroup
 
 import (
-	internalinterfaces "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/mygroup/v1alpha1"
+	internalinterfaces "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/mygroup/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

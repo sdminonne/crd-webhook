@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/internalinterfaces"
-	mygroup "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/mygroup"
+	versioned "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/internalinterfaces"
+	mygroup "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/mygroup"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

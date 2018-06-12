@@ -28,7 +28,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/webhook"
+	"github.com/sdminonne/crd-webhook/pkg/webhook"
 )
 
 type admitFunc func(v1beta1.AdmissionReview) *v1beta1.AdmissionResponse

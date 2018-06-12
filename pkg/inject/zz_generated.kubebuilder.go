@@ -2,10 +2,10 @@ package inject
 
 import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/run"
-	mygroupv1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
-	rscheme "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/scheme"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/controller/myresource"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject/args"
+	mygroupv1alpha1 "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"
+	rscheme "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/scheme"
+	"github.com/sdminonne/crd-webhook/pkg/controller/myresource"
+	"github.com/sdminonne/crd-webhook/pkg/inject/args"
 	rbacv1 "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes/scheme"

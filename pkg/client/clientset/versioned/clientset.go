@@ -4,7 +4,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	mygroupv1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
+	mygroupv1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

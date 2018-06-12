@@ -7,7 +7,7 @@ import (
 	"k8s.io/api/admission/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	mygroupv1a1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/apis/mygroup/v1alpha1"
+	mygroupv1a1 "github.com/sdminonne/crd-webhook/pkg/apis/mygroup/v1alpha1"
 )
 
 func validate(ar v1beta1.AdmissionReview) (reviewResponse *v1beta1.AdmissionResponse) {

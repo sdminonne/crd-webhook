@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1alpha1 "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
+	v1alpha1 "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned/typed/mygroup/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

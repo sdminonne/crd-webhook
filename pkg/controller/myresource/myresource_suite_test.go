@@ -8,9 +8,9 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/test"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject"
-	"github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/inject/args"
+	"github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	"github.com/sdminonne/crd-webhook/pkg/inject"
+	"github.com/sdminonne/crd-webhook/pkg/inject/args"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 )

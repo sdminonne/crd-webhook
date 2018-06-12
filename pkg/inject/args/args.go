@@ -6,8 +6,8 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/args"
 	"k8s.io/client-go/rest"
 
-	clientset "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/clientset/versioned"
-	informer "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions"
+	clientset "github.com/sdminonne/crd-webhook/pkg/client/clientset/versioned"
+	informer "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions"
 )
 
 // InjectArgs are the arguments need to initialize controllers

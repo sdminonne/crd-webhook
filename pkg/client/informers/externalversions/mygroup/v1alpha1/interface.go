@@ -3,7 +3,7 @@
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/sdminonne/kubebuilt-crd-webhook-validated/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/sdminonne/crd-webhook/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.
