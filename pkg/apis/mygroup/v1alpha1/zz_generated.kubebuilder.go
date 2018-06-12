@@ -80,8 +80,18 @@ var (
 							Type: "object",
 						},
 						"spec": v1beta1.JSONSchemaProps{
-							Type:       "object",
-							Properties: map[string]v1beta1.JSONSchemaProps{},
+							Type: "object",
+							Properties: map[string]v1beta1.JSONSchemaProps{
+								"afield": v1beta1.JSONSchemaProps{
+									Type: "string",
+								},
+								"bfield": v1beta1.JSONSchemaProps{
+									Type: "string",
+								},
+								"cfield": v1beta1.JSONSchemaProps{
+									Type: "string",
+								},
+							},
 						},
 						"status": v1beta1.JSONSchemaProps{
 							Type:       "object",

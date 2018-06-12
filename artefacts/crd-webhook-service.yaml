@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: crd-webhook
+  namespace: default
+  labels:
+    mygroup/myresource: crd-webhook # optional
+spec:
+  ports:
+  - name: https-webhook # optional
+    port: 443
+  selector:
+    mygroup/myresource: crd-webhook

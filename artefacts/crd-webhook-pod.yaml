@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webhook
+  labels:
+    mygroup/myresource: crd-webhook
+spec:
+  containers:
+  - name: webhook
+    image: sdminonne/webhook:latest
+    imagePullPolicy: Always
+    args:
+      - --tls-cert-file=/certs/tls.crt
+      - --tls-private-key-file=/certs/tls.key
+    volumeMounts:
+      - name: certs
+        mountPath: /certs
+        readOnly: true
+  volumes:
+  - name: certs
+    secret:
+      secretName: myresource-validating-secret

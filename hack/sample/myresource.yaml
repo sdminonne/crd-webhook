@@ -2,5 +2,11 @@ apiVersion: mygroup.amadeus.io/v1alpha1
 kind: Myresource
 metadata:
   name: myresource-example
+  labels:
+    dont: doit-really
+    validate: please
+
 spec:
-  foo: bar
+  afield: aaa
+  bfield: bbb
+  cfield: ccc

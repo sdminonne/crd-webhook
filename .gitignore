@@ -1,1 +1,6 @@
 /.vscode
+/*.crt
+/*.key
+/artefacts/*admissionregistration.yaml
+cmd/controller-manager/controller-manager
+cmd/webhook/webhook
