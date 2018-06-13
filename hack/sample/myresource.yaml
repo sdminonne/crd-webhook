@@ -7,6 +7,6 @@ metadata:
     validate: please
 
 spec:
-  afield: aaa
-  bfield: bbb
-  cfield: ccc
+  afield: ""
+  bfield: ""
+  cfield: ""

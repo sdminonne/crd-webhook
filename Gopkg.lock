@@ -143,7 +143,8 @@
     "pkg/inject/args",
     "pkg/inject/run",
     "pkg/install",
-    "pkg/signals"
+    "pkg/signals",
+    "pkg/test"
   ]
   revision = "0bacca4c55033931b32fb00e3166206ec33ed440"
   version = "v0.1.10"
@@ -156,6 +157,12 @@
     "jwriter"
   ]
   revision = "8b799c424f57fa123fc63a99d6383bc6e4c02578"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mattbaird/jsonpatch"
+  packages = ["."]
+  revision = "81af80346b1a01caae0cbc27fd3c1ba5b11e189f"
 
 [[projects]]
   name = "github.com/modern-go/concurrent"
@@ -332,6 +339,7 @@
 [[projects]]
   name = "k8s.io/api"
   packages = [
+    "admission/v1beta1",
     "admissionregistration/v1alpha1",
     "admissionregistration/v1beta1",
     "apps/v1",
@@ -427,6 +435,7 @@
   name = "k8s.io/client-go"
   packages = [
     "discovery",
+    "discovery/fake",
     "informers",
     "informers/admissionregistration",
     "informers/admissionregistration/v1alpha1",
@@ -528,6 +537,7 @@
     "plugin/pkg/client/auth/gcp",
     "rest",
     "rest/watch",
+    "testing",
     "third_party/forked/golang/template",
     "tools/auth",
     "tools/cache",
@@ -580,6 +590,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "24b8874e4bcfae9f258662eef8a59cb8ab6d6e46ea749e386f745f895cae8ac9"
+  inputs-digest = "ea82ba906fe41358ec202c6d9f7c25ea67294420b6d282f1b310fea0e39cee58"
   solver-name = "gps-cdcl"
   solver-version = 1

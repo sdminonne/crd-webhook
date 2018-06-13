@@ -13,9 +13,9 @@ import (
 type MyresourceSpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "kubebuilder generate" to regenerate code after modifying this file
-	Afield string `json:"afield"` // Afield should contain only 'A' characters  if empty is defaulted to "A"
-	Bfield string `json:"bfield"` // Bfield should contain only 'B' characters  if emtpy is defaulted to "B"
-	Cfield string `json:"cfield"` // Cfield should contain only 'C' characters  if empty is defaulted to "C"
+	Afield string `json:"afield,omitempty"` // Afield should contain only 'A' characters  if empty is defaulted to "A"
+	Bfield string `json:"bfield,omitempty"` // Bfield should contain only 'B' characters  if emtpy is defaulted to "B"
+	Cfield string `json:"cfield,omitempty"` // Cfield should contain only 'C' characters  if empty is defaulted to "C"
 
 	// MyresourceSpec is valid when len(Afield)==len(Bfield)==len(Cfield)
 }
